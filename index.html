@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Skin Care Hospital</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+
+    <!-- Header / Navigation -->
+    <header>
+        <h1>GlowSkin Care Hospital</h1>
+        <nav>
+            <a href="#home">Home</a>
+            <a href="#services">Services</a>
+            <a href="#about">About Us</a>
+            <a href="#contact">Contact</a>
+        </nav>
+    </header>
+
+    <!-- Hero Section -->
+    <section id="home" class="hero">
+        <h2>Your Skin, Our Care</h2>
+        <p>Professional dermatology and skincare treatments.</p>
+        <button onclick="showAlert()">Book Appointment</button>
+    </section>
+
+    <!-- Services Section -->
+    <section id="services">
+        <h2>Our Services</h2>
+        <div class="cards">
+            <div class="card">
+                <h3>Skin Checkup</h3>
+                <p>Complete skin examination by experts.</p>
+            </div>
+            <div class="card">
+                <h3>Treatment Plans</h3>
+                <p>Customized treatment for all skin types.</p>
+            </div>
+            <div class="card">
+                <h3>Cosmetic Care</h3>
+                <p>Glow-boosting cosmetic procedures.</p>
+            </div>
+        </div>
+    </section>
+
+    <!-- About Section -->
+    <section id="about">
+        <h2>About Us</h2>
+        <p>GlowSkin Care Hospital has been providing excellence in dermatology for over 10 years.</p>
+    </section>
+
+    <!-- Contact Form -->
+    <section id="contact">
+        <h2>Contact Us</h2>
+        <form onsubmit="submitForm(event)">
+            <input type="text" id="name" placeholder="Your Name" required>
+            <input type="email" id="email" placeholder="Your Email" required>
+            <textarea id="message" placeholder="Your Message" required></textarea>
+            <button type="submit">Send Message</button>
+        </form>
+    </section>
+
+    <!-- Footer -->
+    <footer>
+        <p>© 2026 GlowSkin Care Hospital</p>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>

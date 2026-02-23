@@ -1,0 +1,84 @@
+/* GLOBAL STYLES */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    color: #333;
+}
+
+/* HEADER */
+header {
+    background: #4da6ff;
+    padding: 15px;
+    text-align: center;
+    color: white;
+}
+header nav a {
+    margin: 0 15px;
+    text-decoration: none;
+    color: white;
+    font-weight: bold;
+}
+
+/* HERO SECTION */
+.hero {
+    background: url('https://images.pexels.com/photos/4498608/pexels-photo-4498608.jpeg') center/cover no-repeat;
+    color: white;
+    padding: 50px 20px;
+    text-align: center;
+}
+.hero button {
+    background: #ff9933;
+    border: none;
+    padding: 10px 20px;
+    color: white;
+    font-size: 18px;
+    cursor: pointer;
+}
+
+/* SERVICES */
+#services {
+    padding: 30px;
+    text-align: center;
+}
+.cards {
+    display: flex;
+    justify-content: space-around;
+    margin-top: 20px;
+}
+.card {
+    border: 1px solid #ccc;
+    padding: 15px;
+    width: 30%;
+    border-radius: 8px;
+}
+
+/* CONTACT FORM */
+#contact form {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    width: 60%;
+    margin: auto;
+}
+#contact input, textarea {
+    padding: 10px;
+    border: 1px solid #aaa;
+    border-radius: 5px;
+}
+#contact button {
+    background: #4da6ff;
+    border: none;
+    padding: 12px;
+    color: white;
+    font-size: 16px;
+    cursor: pointer;
+}
+
+/* FOOTER */
+footer {
+    background: #222;
+    color: white;
+    padding: 12px;
+    text-align: center;
+}
